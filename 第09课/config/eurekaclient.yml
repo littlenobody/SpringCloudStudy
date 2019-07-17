@@ -3,9 +3,17 @@ server:
 spring:
   application:
     name: eurekaclient
-  bus:
-    trace:
-      enable: true
+  cloud:
+    bus:
+      trace:
+        enable: true
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    virtualHost: /
+    publisherConfirms: true
 
 management:
   endpoints:
