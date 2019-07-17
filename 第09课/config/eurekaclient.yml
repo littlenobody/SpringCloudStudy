@@ -3,6 +3,9 @@ server:
 spring:
   application:
     name: eurekaclient
+  bus:
+    trace:
+      enable: true
 
 management:
   endpoints:
