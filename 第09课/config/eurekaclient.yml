@@ -1,5 +1,5 @@
 server:
-  port: 8763
+  port: 8764
 spring:
   application:
     name: eurekaclient
@@ -19,4 +19,4 @@ management:
   endpoints:
     web:
       exposure:
-        include: refresh,health,info,bus-refresh,trace
+        include: refresh,health,info,bus-refresh
